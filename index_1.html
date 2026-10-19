@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniel Campos | Engenharia Reversa</title>
+<meta name="description" content="Recrio peças e projetos com engenharia reversa. Scanner 3D desde 2024. Peça sem desenho? Solicite um orçamento.">
+<meta property="og:title" content="Daniel Campos | Engenharia Reversa">
+<meta property="og:description" content="Peça sem desenho? Escaneio e recrio. Solicite um orçamento pelo WhatsApp ou e-mail.">
+<style>
+  :root { --bg:#111214; --card:#1a1c1f; --text:#f2f2f2; --muted:#a8adb3; --green:#25d366; --line:#3a3e45; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: radial-gradient(circle at top, #23262b 0%, var(--bg) 60%);
+    color: var(--text); font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 24px 16px;
+  }
+  .card {
+    width: 100%; max-width: 420px; text-align: center;
+    background: var(--card); border-radius: 24px; padding: 40px 24px 32px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.45);
+  }
+  .avatar-wrap {
+    position: relative; width: 112px; height: 112px; margin: 0 auto 20px;
+    border-radius: 50%; overflow: hidden; background: #2b2f35;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 40px; font-weight: 700; color: var(--muted);
+  }
+  .avatar-wrap img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  h1 { font-size: 22px; margin-bottom: 8px; }
+  .sub { color: var(--muted); font-size: 15px; line-height: 1.5; margin-bottom: 6px; }
+  .proof { color: var(--muted); font-size: 13px; margin-bottom: 28px; }
+  .btn {
+    display: block; width: 100%; padding: 18px 16px; border-radius: 14px;
+    font-size: 17px; font-weight: 700; text-decoration: none;
+    transition: transform .15s ease, filter .15s ease;
+  }
+  .btn:hover { filter: brightness(1.1); transform: translateY(-1px); }
+  .btn:active { transform: scale(.98); }
+  .btn-wpp { background: var(--green); color: #0b1f12; }
+  .btn-mail { margin-top: 12px; background: transparent; color: var(--text); border: 1.5px solid var(--line); }
+  .hint { margin-top: 16px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+  <main class="card">
+    <!-- FOTO: salve sua imagem como foto.jpg na mesma pasta deste arquivo.
+         Se o arquivo não existir, aparecem as iniciais DC. -->
+    <div class="avatar-wrap">
+      DC
+      <img src="foto.jpg" alt="Daniel Campos" onerror="this.style.display='none'">
+    </div>
+
+    <h1>Daniel Campos | Eng. Reversa</h1>
+    <p class="sub">Recrio peças e projetos com engenharia reversa.<br>Peça sem desenho? Escaneio e recrio.</p>
+    <p class="proof">Scanner 3D desde 2024</p>
+
+    <!-- TROQUE O NÚMERO: 55 + DDD + número, só dígitos. Ex.: 5511912345678 -->
+    <a class="btn btn-wpp"
+       href="https://wa.me/5519978270758?text=Ol%C3%A1%2C%20Daniel!%20Tenho%20uma%20pe%C3%A7a%20para%20recriar%20com%20engenharia%20reversa%20e%20quero%20um%20or%C3%A7amento."
+       rel="noopener">Enviar foto da peça</a>
+
+    <!-- TROQUE O E-MAIL: substitua seuemail@exemplo.com pelo seu e-mail (nos dois lugares abaixo) -->
+    <a class="btn btn-mail"
+       href="mailto:dhtech3d@gmail.com?subject=Or%C3%A7amento%20de%20engenharia%20reversa&body=Ol%C3%A1%2C%20Daniel!%20Tenho%20uma%20pe%C3%A7a%20para%20recriar%20com%20engenharia%20reversa%20e%20quero%20um%20or%C3%A7amento.%0A%0ADescri%C3%A7%C3%A3o%20da%20pe%C3%A7a%3A%0A"
+       >Enviar e-mail</a>
+
+    <p class="hint">Envie a foto ou o desenho da peça e eu retorno com o orçamento</p>
+  </main>
+</body>
+</html>
